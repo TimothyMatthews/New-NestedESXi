@@ -86,7 +86,7 @@ function New-NestedESXi {
     }
 
     if(!($start)){
-        $start = $true
+        $start = $false
     }
 
 
