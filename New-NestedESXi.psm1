@@ -20,9 +20,7 @@ function New-NestedESXi {
       Need to import vmware.powercli before running this script.
       After Creation, the VM will automatically start by default.
     .EXAMPLE
-     Get-WmiClasses -class disk -ns rootcimv2″
-     This command finds wmi classes that contain the word disk. The
-     classes returned are from the rootcimv2 namespace.
+     to be filled
   #>
 
 
