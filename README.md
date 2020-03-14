@@ -1,10 +1,10 @@
 # New-NestedESXi
 
-New-NestedESXi is a Powershell Function that uses PowerCli to create a new Nested ESXi server. Its a much easier way to deploy the OVF file and specifiy parameters like IP, CPU, RAM, and Cache/Capacity disks for nested vSAN deployments.
+New-NestedESXi is a Powershell Function that uses PowerCli to create a new Nested ESXi server. Its a much easier way to deploy the OVF file and specifiy parameters like IP, CPU, RAM, and Cache/Capacity disks for nested vSAN deployments. This is for **LAB PURPOSSES ONLY**. Nested ESXi is not supported by VMware.
 
 ## Installation
 
-Copy the New-NestedESXi.psm1 file to your modules folder and in your script, import the module using import-module
+Copy the New-NestedESXi.psm1 file to your modules folder or working folder. In your script, import the module using import-module
 
 ```PowerShell
 import-module New-NestedESXi.psm1
@@ -101,10 +101,3 @@ Sets the Hard disk size for the Cache disk if using nested vSAN. Default is 4 GB
 
 If set to true, it will start the VM right after creation. Default is false
 
-
-## Contributing
-
-To be filled
-
-## License
-To be filled
