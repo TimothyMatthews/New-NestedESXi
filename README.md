@@ -32,72 +32,72 @@ This will deploy a nested ESXi on the first datastore, portgroup, Host found whe
 
 ## Arguments
 
-**Name**
+**-Name**
 
 Name of the VM as seen in vSphere
 
-**IPaddress**
+**-IPaddress**
 
 IP address of the first VMK interface
 
-**netmask**
+**-netmask**
 
 Subnet mask (ex: 255.255.255.0)
 
-**Gateway**
+**-Gateway**
 
 Default Gateway
 
-**DNS**
+**-DNS**
 
 DNS servers
 
-**Domain**
+**-Domain**
 
 Domain information
 
-**OVAFiles**
+**-OVAFiles**
 
 Location of the OVA files, Please use the excellent OVA files on Willim Lam's blog, Virtually Ghetto: https://www.virtuallyghetto.com/2018/04/nested-esxi-6-7-virtual-appliance-updates.html
 
 
-**Datastore**
+**-Datastore**
 
 Name of the datastore to store the VM. Default is the first Datastore found in the deployment environment.
 
-**PortGroup**
+**-PortGroup**
 
 Port Group where the NIC will connect to. Default is the first Virtual port group found in the deployment environment.
 
-**VMhost**
+**-VMhost**
 
 Host where the VM will run on. Default is the first host found in the deployment environment.
 
-**password**
+**-password**
 
 Password to login to ESXi host. Default is "vmware123".
 
-**VLAN**
+**-VLAN**
 
 VLAN for the first VMK port. Default is 0 (none).
 
-**RAM**
+**-RAM**
 
 Sets the RAM on the VM. Default is 6 GB.
 
-**CPU**
+**-CPU**
 
 Sets the number of vCpu on the VM. Default is 2.
 
-**Capacity**
+**-Capacity**
 
 Sets the Hard disk size for the Capacity disk if using nested vSAN. Default is 8 GB.
 
-**Cache**
+**-Cache**
 
 Sets the Hard disk size for the Cache disk if using nested vSAN. Default is 4 GB.
 
-**Start**
+**-Start**
 
 If set to true, it will start the VM right after creation. Default is false
 
