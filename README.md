@@ -58,7 +58,7 @@ Domain information
 
 **-OVAFiles**
 
-Location of the OVA files, Please use the excellent OVA files on Willim Lam's blog, Virtually Ghetto: https://www.virtuallyghetto.com/2018/04/nested-esxi-6-7-virtual-appliance-updates.html
+Location of the OVA files, Please use the excellent OVA files on William Lam's blog, Virtually Ghetto: https://www.virtuallyghetto.com/2018/04/nested-esxi-6-7-virtual-appliance-updates.html
 
 
 **-Datastore**
